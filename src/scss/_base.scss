@@ -1,0 +1,59 @@
+$orange:rgb(255, 165, 0);
+$orange-1:#b4975a;
+$orange-2:#f1a708;
+$gray:rgba(48, 49, 51, .9);
+$green:#69887E;
+//$white:rgb(236, 232, 223);
+$white:#B9BCA2;
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px , 16px/10px = 62.5%
+}
+
+body {
+
+
+    font-family: "Poppins", sans-serif;
+    // color: $color-font-primary;
+    line-height: 1.6;
+    background-color: $green;
+
+}
+
+ button {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    font-family: "Fjalla One", sans-serif;
+ 
+    padding: 1.5rem;
+
+    a:active,
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: red;
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}

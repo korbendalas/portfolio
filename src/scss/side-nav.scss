@@ -1,0 +1,38 @@
+.side-nav{
+    position: fixed;
+    height: 100vh;
+    width: 80%;
+    max-width: 30rem;
+    background-color: rgb(48, 49, 51);
+
+    color: white;
+    font-size: 2.6rem;
+    right: 0;
+    // top: 90px;
+    z-index: 99999;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-out;
+
+    ul{
+    list-style: none;
+    }
+}
+.side-nav-container{
+    
+    padding: 50% 3rem 3rem 3rem;
+}
+.side-nav.open {
+    transform: translateX(0);
+}
+
+.backdrop{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    
+    background-color: rgba(48, 49, 51, 0.7);
+
+    top: 0;
+    right: 0;
+    z-index: 99998;
+}

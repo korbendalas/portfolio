@@ -1,0 +1,57 @@
+.home{
+
+
+    background:linear-gradient(to right bottom,rgba(47, 47, 48,.5), rgba(82,129,96,0.3)), url('https://i.imgur.com/oWOj3ag.jpg')  center/cover;
+    //rgb(121, 121, 122) 47, 47, 48
+   // background: linear-gradient(to bottom, #000000, #1d1d1d, #333333, #4b4b4b, #646464), url('https://i.imgur.com/oWOj3ag.jpg')  center/cover;
+
+    height: 101vh;
+    z-index: -1111;
+    margin-top: -6rem;
+    padding-top:6rem;
+    font-size: 3rem;
+}
+
+
+.typewriter{
+
+    max-width: 40%;
+    white-space: pre-wrap;
+    text-align: left;
+    padding-left: 3rem;
+    color: $white;
+   margin-top: 20rem;
+  
+}
+.ime-i-prezime{
+    color: $orange-1;
+}
+@media screen and(max-width:1024px) {
+    .home{ height: 103vh;}
+}
+
+@media screen and(max-width:768px) {
+    .home{ height: 103vh;}
+    .ime-i-prezime{
+        color: $orange-2;
+    }
+
+    .typewriter{ 
+        color: white;       
+        padding-left: .5rem;
+        font-size: 2.5rem;
+        max-width: 100%;
+        width: 60%;
+    }
+ }
+
+@media screen and(max-width:425px) {
+   .typewriter{
+       
+       margin-top: 15rem;
+       padding-left: .5rem;
+       font-size: 2rem;
+       max-width: 100%;
+       width: 70%;
+   }
+}

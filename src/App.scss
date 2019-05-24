@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+@import "./scss/base";
+@import "./scss/header";
+@import "./scss/navbar";
+@import "./scss/home";
+@import "./scss/gallery";
+@import "./scss/o-meni.scss";
+@import "./scss/seminarski.scss";
+@import "./scss/contact.scss";
+@import "./scss/side-nav.scss";
+@import "./scss/backdrop.scss";
+@import "./scss/media.scss";
+
+/*! debug.css | MIT License | zaydek.github.com/debug.css */
+//  *:not(path):not(g) {
+//  	color:                    hsla(210, 100%, 100%, 0.9) !important;
+//  	background:               hsla(210, 100%,  50%, 0.5) !important;
+//  	outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+//  	box-shadow: none !important;
+//  }

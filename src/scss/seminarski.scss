@@ -1,0 +1,142 @@
+.seminarski {
+  position: absolute;
+  min-height: 100%;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: $green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seminarski-container {
+  background-color: $green;
+  width: 50%;
+
+  h1 {
+    font-size: 3rem;
+    margin: 5rem 0;
+  }
+}
+
+.download {
+  background-color: $green;
+  display: flex;
+  justify-content: center;
+
+  a {
+    font-size: 2rem;
+    align-self: center;
+
+    &:hover {
+      color: crimson;
+    }
+  }
+}
+
+.download-img {
+  background-color: $green;
+  height: 7rem;
+  width: 6rem;
+}
+
+.opis-tehnologije {
+  background-color: $green;
+  width: 50%;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  p {
+    font-size: 1.6rem;
+    margin-top: 7rem;
+    text-align: justify;
+  }
+  img {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+  }
+}
+//************************************SORTABLE ITEM*************************
+.opis-tehnologije {
+  width: 100%;
+}
+.container-drag {
+  text-align: center;
+}
+
+.wip {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  left: 0;
+  top: 10;
+  background-color: #eeeeee;
+  border-right: 1px dotted;
+}
+
+.header {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+  width: 100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+  width: 100%;
+}
+
+.droppable {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  right: 0;
+  top: 10;
+  background-color: #9e9e9e;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
+
+@media screen and(max-width:1024px) {
+  .seminarski-opis-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .seminarski {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 34rem;
+    // padding-top: 5rem;
+    a {
+      word-break: break-word;
+    }
+  }
+
+  .opis-tehnologije,
+  .seminarski-container {
+    width: 100%;
+  }
+  .opis-tehnologije {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and(max-width:768px) {
+  .seminarski {
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.navigation {
+    font-size: 1.7rem;
+
+    // background: transparent;
+    // background: red;
+    margin: .0 4rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999999;
+    position: relative;
+
+
+}
+
+//navigation logo container
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.nav-logo-item {
+    // width: 5.5rem;
+    //height: 4rem;
+    background: transparent;
+    text-decoration: none;
+
+    color: $white;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 2px solid $white;
+    line-height: 2rem;
+
+    
+}
+
+//social media icons
+.social-media {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    // justify-content: flex-end;
+    // padding: 0 1rem;
+}
+
+.social-media-item {
+    color: $white;
+    padding-right: 1rem;
+
+    &:hover {
+        color: $gray;
+    }
+}
+
+//main menu 
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+//main menu navigation items
+.navbar-item {
+    text-decoration: none;
+    padding: 1.5rem 1.5rem;
+    color: rgb(236, 232, 223);
+
+
+    &:visited {
+        color: rgb(236, 232, 223);
+    }
+
+    &:hover {
+        color: $gray;
+    }
+
+}
+.fa-bars{
+    color: black !important;
+}
+
+
+.active {
+    color: $gray !important;
+}
+
+// to hide content if screeen size is smaller than 764px, anywhere is invoked
+@media screen and(max-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+//to hide content if screen size is higher than 7644px;
+@media (min-width: 769px) {
+    .desktop {
+        display: none;
+    }
+}
