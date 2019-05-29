@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img7.59659270.jpg"
   },
   {
-    "revision": "dd897ebf1e5c69458557",
-    "url": "/portfolio/static/css/main.63dd5d49.chunk.css"
+    "revision": "732794fed32bc8706048",
+    "url": "/portfolio/static/css/main.56cd683a.chunk.css"
   },
   {
     "revision": "a85c35522a968718ced4",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img6.82b1d96f.jpg"
   },
   {
-    "revision": "dd897ebf1e5c69458557",
-    "url": "/portfolio/static/js/main.dd897ebf.chunk.js"
+    "revision": "732794fed32bc8706048",
+    "url": "/portfolio/static/js/main.732794fe.chunk.js"
   },
   {
     "revision": "129a8e7a88e2ff6d90947fa9a37a7d56",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/seminarski1.d01d5b6c.png"
   },
   {
-    "revision": "0cca2b5c2667620002fe52756613f024",
+    "revision": "8d62c8e5c220f8a548a69639c824f0f2",
     "url": "/portfolio/index.html"
   }
 ];
