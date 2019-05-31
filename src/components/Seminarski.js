@@ -8,17 +8,17 @@ import DroppableComponent from "./DroppableComponent";
 
 class Seminarski extends Component {
   conponentDidMount() {
-    //   $(function() {
-    //     $("#draggable").draggable();
-    //     $("#droppable").droppable({
-    //       drop: function(event, ui) {
-    //         $(this)
-    //           .addClass("ui-state-highlight")
-    //           .find("p")
-    //           .html("Dropped!");
-    //       }
-    //     });
-    //   });
+    $(function() {
+      $("#draggable").draggable();
+      $("#droppable").droppable({
+        drop: function(event, ui) {
+          $(this)
+            .addClass("ui-state-highlight")
+            .find("p")
+            .html("Dropped!");
+        }
+      });
+    });
   }
   render() {
     return (
@@ -32,7 +32,7 @@ class Seminarski extends Component {
           <div className="download">
             <img className="download-img" src={wordImg} alt="word img" />
             <a
-              href="https://drive.google.com/uc?export=download&id=1BWUMC8PEw9PrEBIsfXY_0K1fLBDbm428"
+              href="https://drive.google.com/uc?export=download&id=1BwtDM03TWFYoFjfBB9qQN_4ZGyrxT1Vx"
               download
               className="seminarski-download"
             >
@@ -43,7 +43,7 @@ class Seminarski extends Component {
             <img className="download-img" src={pdfImg} alt="pdf img" />
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1hOXdbky5cskup41f_K2EXuEAg6N6rtpN"
+              href="https://drive.google.com/uc?export=download&id=15il9A9sVMkZWVYI-t5VsWFRB6t0SVG79"
               download
               className="seminarski-download"
             >
@@ -53,7 +53,7 @@ class Seminarski extends Component {
           <div className="download">
             <img className="download-img" src={ppImg} alt="pp img" />
             <a
-              href="https://drive.google.com/uc?export=download&id=1RXlfHSsQRFUKi7l8voZIz62NtMPwf1UF"
+              href="https://drive.google.com/uc?export=download&id=1pGmQJK25lF5c_p1EauCfqXxSAgiUINEx"
               download
               className="seminarski-download"
             >
@@ -67,7 +67,7 @@ class Seminarski extends Component {
 
           <button>
             <a
-              href="https://drive.google.com/uc?export=download&id=1SycXxjTZrWDb4vIPGUnqY5mYhlZPADHh"
+              href="https://drive.google.com/uc?export=download&id=1NcX7IjLyzLMHUTZsMPCtklKkrlnQP7IX"
               download
               className="seminarski-download"
             >

@@ -111,20 +111,23 @@
 @media screen and(max-width:1024px) {
   .seminarski-opis-img {
     width: 80%;
-    height: auto;
+    min-height: 100%;
   }
 
   .seminarski {
     flex-direction: column;
-    height: 100%;
-    margin-top: 34rem;
+    min-height: 100%;
+    margin-top: 4rem;
     // padding-top: 5rem;
     a {
       word-break: break-word;
     }
   }
 
-  .opis-tehnologije,
+  .opis-tehnologije {
+    width: 60%;
+    margin: 0 auto;
+  }
   .seminarski-container {
     width: 100%;
   }
@@ -134,6 +137,9 @@
   }
 }
 @media screen and(max-width:768px) {
+  .opis-tehnologije {
+    width: 40%;
+  }
   .seminarski {
     h1 {
       font-size: 1.8rem;
