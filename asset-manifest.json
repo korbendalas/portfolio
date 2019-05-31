@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.4a964ae0.chunk.css",
-  "main.js": "/portfolio/static/js/main.167b11e3.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.167b11e3.chunk.js.map",
-  "static/js/1.a85c3552.chunk.js": "/portfolio/static/js/1.a85c3552.chunk.js",
-  "static/js/1.a85c3552.chunk.js.map": "/portfolio/static/js/1.a85c3552.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.60162606.chunk.css",
+  "main.js": "/portfolio/static/js/main.fc68b504.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.fc68b504.chunk.js.map",
+  "static/js/1.4080dbc5.chunk.js": "/portfolio/static/js/1.4080dbc5.chunk.js",
+  "static/js/1.4080dbc5.chunk.js.map": "/portfolio/static/js/1.4080dbc5.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/pdf.png": "/portfolio/static/media/pdf.ab28a9d2.png",
@@ -24,8 +24,8 @@
   "static/media/pp.png": "/portfolio/static/media/pp.cc2d0c06.png",
   "static/media/img13.jpg": "/portfolio/static/media/img13.1ddb3385.jpg",
   "static/media/seminarski1.png": "/portfolio/static/media/seminarski1.d01d5b6c.png",
-  "static/css/main.4a964ae0.chunk.css.map": "/portfolio/static/css/main.4a964ae0.chunk.css.map",
+  "static/css/main.60162606.chunk.css.map": "/portfolio/static/css/main.60162606.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.2d57834c1a3bb488813c5361f416c100.js": "/portfolio/precache-manifest.2d57834c1a3bb488813c5361f416c100.js",
+  "precache-manifest.e40a105c11083f5e890b48ef28e4f416.js": "/portfolio/precache-manifest.e40a105c11083f5e890b48ef28e4f416.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
